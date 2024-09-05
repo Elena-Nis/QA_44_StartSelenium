@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45200561-5104-464b-97c6-35beab187607" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/Exceptions.java" afterDir="false" />
+    <list default="true" id="45200561-5104-464b-97c6-35beab187607" name="Changes" comment="Create examples Exceptions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/CssSelectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/CssSelectorsILCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/CssSelectorsILCarroIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -48,13 +49,17 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Exceptions.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.CssSelectors.cssSelectors.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CssSelectorsILCarro.cssSelectorsILCarro.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CssSelectorsILCarro.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.CssSelectorsILCarro">
     <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.Exceptions" />
       <module name="QA_44_StartSelenium" />
@@ -68,8 +73,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CssSelectorsILCarro" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_44_StartSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.CssSelectorsILCarro" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CssSelectorsILCarro.cssSelectorsILCarro" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_44_StartSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.CssSelectorsILCarro" />
+      <option name="METHOD_NAME" value="cssSelectorsILCarro" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CssSelectors.cssSelectors" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_44_StartSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.CssSelectors" />
+      <option name="METHOD_NAME" value="cssSelectors" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CssSelectorsILCarro" />
+        <item itemvalue="TestNG.CssSelectorsILCarro.cssSelectorsILCarro" />
+        <item itemvalue="TestNG.CssSelectors.cssSelectors" />
         <item itemvalue="Application.Exceptions" />
       </list>
     </recent_temporary>
@@ -83,6 +144,34 @@
       <option name="presentableId" value="Default" />
       <updated>1725005801063</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create examples Exceptions">
+      <option name="closed" value="true" />
+      <created>1725187750352</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725187750352</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create examples Exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create examples Exceptions" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/CssSelectors.java</url>
+          <line>12</line>
+          <properties class="practice.CssSelectors" method="cssSelectors">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
