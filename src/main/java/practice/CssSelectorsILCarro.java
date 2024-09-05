@@ -25,6 +25,7 @@ public class CssSelectorsILCarro {
             option.click();
             pause(4);
            break;
+
         }
     }
 
